@@ -11,9 +11,14 @@
         <label for="phrase1">partie 1</label>
         <input id="phrase1"></input>
         <label for="chance1">pourcentage de chance</label>
-        <input id="chance1" value="100" type="number"></input>
-        <button id="bouton-plus">+</button><br/>
+        <input id="chance1" value="100" type="number" min="0" max="100"></input>
+        <button id="bouton-plus">+</button>
+        <button id="bouton-moins">-</button><br/>
     </div>
+    <br/>
+    <button id="creer-phrase">Créer la Phrase</button><br/>
+    <br/>
+    <textarea id="phrase" placeholder="Ici apparaitra votre phrase."></textarea>
     <script src="js/sentance.js"></script>
     <script src="js/main.js"></script>
 </body>
